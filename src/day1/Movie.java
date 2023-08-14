@@ -2,11 +2,16 @@ package day1;
 
 public class Movie {
     public static void main(String[] args) {
-        int i=0;
-        while(i<5) {
-            System.out.println(i);
-            i++;
+       Movie m=new Movie();
+        m.good();
+        m.bad();
         }
     }
-
+public void good()
+    {
+        System.out.println("BlockBuster");
+    }
+    public void bad()
+    {
+        System.out.println("flop");
 }
